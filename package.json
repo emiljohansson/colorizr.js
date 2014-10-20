@@ -1,0 +1,21 @@
+{
+  "name": "colorizr",
+  "version": "1.0.0",
+  "description": "Random generator for rgb and hex colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "color",
+    "hex",
+    "rgb",
+    "random",
+    "generator"
+  ],
+  "author": "Emil Johansson <emiljohansson.se@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
