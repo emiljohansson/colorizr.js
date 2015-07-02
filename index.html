@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>colorizr - random color generator</title></head>
+<body>
+    <h1 id="header1">Colors!!!</h1>
+    <button onclick="update()">more!</button>
+    <script src="colorizr.js"></script>
+    <script>
+    function update() {
+        document.body.style.backgroundColor = colorizr.hex(true);
+        document.getElementById('header1').style.color = colorizr.rgb(true);
+    }
+    update();
+    </script>
+</body></html>
